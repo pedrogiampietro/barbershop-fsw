@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">barbershop</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-saiba-mais">Saiba mais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 04" />
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Código e terminal com testes](./.github/preview.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Tecnologias
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Learn More
+- [Next.js 14 com TypeScript](https://nextjs.org)
+- [Tailwind](https://tailwindui.com/)
+- [Shadcn/ui](https://ui.shadcn.com/)
+- [Prisma](https://www.prisma.io/x)
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Um sistema de reservas para barbearias;
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚀 Como executar
 
-## Deploy on Vercel
+Para iniciar o seu projeto.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Instale as dependências com `npm install ou yarn add`
+- Rode o baco de dados com docker `docker-compose up -d`
+- Crie o banco de dados e rode as migrations rodando `npx prisma migrate dev && npm run seed`
+- Inicie o projeto com `npm run dev`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+
+## ⚡️ Saiba mais
+
+- Figma: [https://www.figma.com/file/TJquYVeL0si5dpXxJNtPkM/FSW-Barber-%5BLive%5D?type=design&node-id=1-9&mode=design&t=wpFHpeOScldE6lWW-0](https://www.figma.com/file/TJquYVeL0si5dpXxJNtPkM/FSW-Barber-%5BLive%5D?type=design&node-id=1-9&mode=design&t=wpFHpeOScldE6lWW-0/)
+- Notion: [https://narrow-beach-a00.notion.site/Full-Stack-Week-3-Edi-o-f633d6a03555413e874a5e826bbaaf35](https://narrow-beach-a00.notion.site/Full-Stack-Week-3-Edi-o-f633d6a03555413e874a5e826bbaaf35)
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by Pedro;
